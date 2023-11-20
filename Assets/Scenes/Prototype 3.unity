@@ -216,6 +216,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &513336363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5233164431406977828, guid: 184200355b6b24568809f3a1dfb5c423, type: 3}
+  m_PrefabInstance: {fileID: 6997907440276843991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &513336368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513336363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4172aec0d1b4a40b0ad97b6339c39a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 50
+  gravityModifier: 20
+  isOnGround: 1
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +505,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5233164431406977828, guid: 184200355b6b24568809f3a1dfb5c423, type: 3}
       propertyPath: m_Name
-      value: SimpleFarmer_Man_01_Black
+      value: player
       objectReference: {fileID: 0}
     - target: {fileID: 5233164431407402820, guid: 184200355b6b24568809f3a1dfb5c423, type: 3}
       propertyPath: m_RootOrder
@@ -501,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5233164431407402820, guid: 184200355b6b24568809f3a1dfb5c423, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.38167763
+      value: 1.09
       objectReference: {fileID: 0}
     - target: {fileID: 5233164431407402820, guid: 184200355b6b24568809f3a1dfb5c423, type: 3}
       propertyPath: m_LocalRotation.w
