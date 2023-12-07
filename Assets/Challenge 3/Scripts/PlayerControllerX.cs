@@ -6,7 +6,7 @@ public class PlayerControllerX : MonoBehaviour
 {
     public bool gameOver;
 
-    public float floatForce;
+    public float floatForce = 25;
     private float gravityModifier = 1.5f;
     private Rigidbody playerRb;
 
